@@ -1,0 +1,17 @@
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
